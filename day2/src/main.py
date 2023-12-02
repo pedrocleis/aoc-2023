@@ -41,5 +41,5 @@ def part_two(games: list[str]) -> int:
     return number
 
 
-# print("Part 1: ", part_one(games))
+print("Part 1: ", part_one(games))
 print("Part 2: ", part_two(games))
