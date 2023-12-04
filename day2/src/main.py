@@ -1,4 +1,4 @@
-f = open("day2/input/day2.txt", "r", encoding="utf-8")
+f = open("inputs/day2.txt", "r", encoding="utf-8")
 games = f.read().split("\n")
 games = [game[game.find(":") + 1 :].strip() for game in games]
 

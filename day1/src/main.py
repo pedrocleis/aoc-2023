@@ -1,4 +1,4 @@
-f = open("day1/input/day1.txt", "r", encoding="utf-8")
+f = open("inputs/day1.txt", "r", encoding="utf-8")
 words = f.read().split("\n")
 STRING_TO_DIGIT = [
     "zero",
@@ -41,8 +41,6 @@ def find_last_digit(word: str) -> int:
 
 allNum = 0
 for word in words:
-    print(word)
     number = find_first_digit(word) * 10 + find_last_digit(word)
-    print(number)
     allNum += number
 print(allNum)
